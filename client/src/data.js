@@ -43,42 +43,42 @@ export const categories = [
 export const popularproducts = [
   {
     id: 1,
-    img: './images/product/1.png',
+    img: '/images/product/1.png',
   },
   {
     id: 2,
-    img: './images/product/2.png',
+    img: '/images/product/2.png',
   },
   {
     id: 3,
-    img: './images/product/3.png',
+    img: '/images/product/3.png',
   },
   {
     id: 4,
-    img: './images/product/4.png',
+    img: '/images/product/4.png',
   },
   {
     id: 5,
-    img: './images/product/5.png',
+    img: '/images/product/5.png',
   },
   {
     id: 6,
-    img: './images/product/6.png',
+    img: '/images/product/6.png',
   },
   {
     id: 7,
-    img: './images/product/7.png',
+    img: '/images/product/7.png',
   },
   {
     id: 8,
-    img: './images/product/8.png',
+    img: '/images/product/8.png',
   },
   {
     id: 9,
-    img: './images/product/3.png',
+    img: '/images/product/3.png',
   },
   {
     id: 10,
-    img: './images/product/4.png',
+    img: '/images/product/4.png',
   },
 ];
