@@ -19,7 +19,7 @@ const Products = ({ category, filters, sort }) => {
   useEffect(() => {
     const getProduct = async () => {
       try {
-        const res = await axios.get(category ? `http://localhost:5000/api/v1/product?category=man` : `http://localhost:5000/api/v1/product`)
+        const res = await axios.get(category ? `https://react-ecommerce-dbgk.onrender.com/api/v1/product?category=man` : `https://react-ecommerce-dbgk.onrender.com/api/v1/product`)
         console.log("response", res)
         setProducts(res.data)
       } catch (error) {
